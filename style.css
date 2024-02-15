@@ -1,0 +1,45 @@
+body{
+  background-color:red;
+  color:black;
+  margin:3rem;
+  font-family: "Protest Revolution", sans-serif;
+}
+section{
+  display:flex;
+}
+figure{
+  display:flex;
+  align-self: flex-start;
+  position:sticky;
+  top:1rem;
+}
+/*Duck*/
+.Duck {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f986.png) 36 36, auto;
+}
+/*Frame*/
+.Frame {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f5bc.png) 36 36, auto;
+}
+/*Call*/
+.Call {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f4e2.png) 36 36, auto;
+}
+@keyframes titlechange{
+  0%{
+    color:Black;
+  }50%{
+    color:white;
+  }100%{
+    color:Black;
+  }
+}
+h1{
+  animation: titlechange 5s infinite;
+}
+button{
+  background-color:black;
+    color:red;
+  font-family: "Protest Revolution", sans-serif;
+  padding:3rem;
+}
